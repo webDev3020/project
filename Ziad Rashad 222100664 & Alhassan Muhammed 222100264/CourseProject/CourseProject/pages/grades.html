@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grades</title>
+  <link rel="stylesheet" href="../css/grades.css">
+</head>
+<body>
+  <header id="header1" name="header1">
+    <h1 id="firstHead" name="firstHead"><a href="../index.html">G__Y__M</a></h1>
+  </header>
+  <nav id="fnavbar" name="fnavbar">
+    <ul id="funorder" name="funorder">
+        <li id="1list_ful" name="1list_ful"><a href="home.html">HOME</a></li>
+        <li id="2list_ful" name="2list_ful"><a href="about.html">ABOUT US</a></li>
+        <li id="3list_ful" name="3list_ful"><a href="contact.html">CONTACT</a></li>
+        <li id="4list_ful" name="4list_ful"><a href="registration.html">REGISTRATION</a></li>
+        <li id="5list_ful" name="5list_ful"><a href="https://www.gu.edu.eg">Galala University</a></li>
+        <li id="6list_ful" name="6list_ful"><a href="grades.html">GRADES</a></li> 
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <form id="gradeCalculatorForm">
+        <h2>Grade Calculator</h2>
+        <label for="assignments">Assignments Score (0-100):</label>
+        <input type="number" id="assignments" name="assignments" min="0" max="100" required>
+        <label for="quizzes">Quizzes Score (0-100):</label>
+        <input type="number" id="quizzes" name="quizzes" min="0" max="100" required>
+        <label for="exams">Exams Score (0-100):</label>
+        <input type="number" id="exams" name="exams" min="0" max="100" required>
+        <button type="button" id="calculateGrade" name="calculateGrade">Calculate Grade</button>
+      </form>
+      <div id="gradeResult" name="gradeResult" style="display: none;">
+        <h3 id="" name="">Total Grade: <span id="gradeOutput" name="gradeOutput">N/A</span></h3>
+      </div>
+    </section>
+    <section id="" name="">
+      <form id="contactForm" name="contactForm">
+        <h2 id="" name="">Contact Us</h2>
+        <label id="" name="" for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label id="" name="" for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label id="" name="" for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button id="" name="" type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer id="" name="">
+    <ul id="" name="">
+        <li id="" name=""><a href="mailto:zrs800917@gu.edu.eg">zrs800917@gu.edu.eg</a></li>
+        <li id="" name=""><a href="mailto:ama800599@gu.edu.eg">ama800599@gu.edu.eg</a></li>
+        <li id="" name=""><a href="https://www.instagram.com/_ziaddrashadd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
+        <li id="" name=""><a href="https://twitter.com">Twitter</a></li>
+        <li id="" name=""><a href="pages/about.html">About Us</a></li> 
+    </ul>
+    <p id="" name="">&copy;2024 My Website</p>
+</footer>
+  <script src="../scripts/grades.js"></script>
+</body>
+</html>

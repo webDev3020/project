@@ -1,0 +1,160 @@
+/*
+* ID & Name:      [222100264, Alhassan Muhamed Abdulmonem]
+* ID & Name:      [222100664, Ziad Rashad Saeed] 
+* Course:         CSE211 Web Programming  
+* Assignment:     Course Project 
+* Date:           16/1/2025
+* Description:    The purpose of this styles.cc is to style
+*                 the index.html page in course project  
+*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+nav {
+    background-color: #2c3e50;
+    padding: 1rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    margin: 0 1rem;
+}
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(90deg, #1abc9c, #16a085);
+    color: white;
+}
+header h1 {
+    font-size: 2.5rem;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+main section {
+    flex: 3;
+    margin-right: 2rem;
+}
+main aside {
+    flex: 1;
+    background: #ecf0f1;
+    padding: 1rem;
+    border-radius: 5px;
+}
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+form input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#excercises {
+    padding: 2rem;
+}
+.excercises {
+    border: 1px solid #000000;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.excercises h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+.excercises iframe {
+    display: block;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+section h2 {
+    text-align: center;
+}
+table {
+    text-align: center;
+    width: 98%;
+    border-collapse: collapse;
+    margin: 0.5rem 1rem;
+}
+table ul {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+}
+table th {
+    background-color: #34495e;
+    color: white;
+}
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem;
+}
+footer li {
+    margin: 0 1rem;
+}
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+body {
+    perspective: 1000px;
+}
+header {
+    position: relative;
+    overflow: hidden;
+}
+header:hover {
+    animation: parallax 3s infinite;
+}
+@keyframes parallax {
+    from {
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
